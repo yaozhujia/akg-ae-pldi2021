@@ -1,0 +1,11 @@
+import boot
+boot.run("matmul_run_011", "matmul_run",((512, 512), (512, 128), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[4, 2], [8, 4], [16, 16], [16, 16], [16, 4]])
+boot.run("matmul_run_012", "matmul_run",((512, 512), (512, 2048), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[64, 64], [2, 2], [16, 16], [16, 16], [16, 1]])
+boot.run("matmul_run_013", "matmul_run",((1008, 2048), (2048, 2048), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[32, 32], [7, 7], [16, 16], [16, 16], [2, 1]])
+boot.run("matmul_run_014", "matmul_run",((256, 256), (256, 1024), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[16, 16], [8, 8], [16, 16], [16, 16], [1, 1]])
+boot.run("matmul_run_015", "matmul_run",((128, 512), (512, 512), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[8, 4], [4, 1], [16, 16], [16, 16], [32, 8]])
+boot.run("matmul_run_016", "matmul_run",((2048, 512), (512, 512), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[4, 4], [4, 2], [16, 16], [16, 16], [32, 32]])
+boot.run("matmul_run_017", "matmul_run",((512, 128), (128, 128), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[4, 4], [8, 2], [16, 16], [16, 16], [8, 8]])
+boot.run("matmul_run_018", "matmul_run",((1008, 1008), (1008, 2048), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[16, 16], [7, 7], [16, 16], [16, 16], [3, 3]])
+boot.run("matmul_run_019", "matmul_run",((2048, 1024), (1024, 1024), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"), [[16, 4], [16, 16], [16, 16], [16, 16], [64, 1]])
+boot.run("matmul_run_020", "matmul_run",((128, 128), (128, 1152), 0, 'zN', 'zN', 'zN', False, False, 'float16', None, 'float32', "matmul"),[[9, 9], [8, 8], [16, 16], [16, 16], [2, 1]])

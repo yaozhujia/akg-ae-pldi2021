@@ -1,0 +1,11 @@
+This repo is the test case of figure 9.
+If you environment is ready, just run the code below:
+python3 test_op_1.py
+python3 test_op_2.py
+python3 test_op_3.py
+python3 test_op_4.py
+python3 test_op_5.py
+python3 test_op_6.py
+python3 test_op_7.py
+python3 test_op_8.py
+python3 test_op_9_10.py
