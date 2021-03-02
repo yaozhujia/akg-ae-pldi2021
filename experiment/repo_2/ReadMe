@@ -1,0 +1,6 @@
+This repo is the test case of figure 11.
+If you environment is ready, just run the code below:
+python3 test_matmul_001.py
+python3 test_matmul_002.py
+python3 test_matmul_003.py
+python3 test_matmul_004.py
